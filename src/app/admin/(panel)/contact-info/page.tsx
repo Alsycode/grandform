@@ -74,7 +74,7 @@ export default function ContactInfoSettingsPage() {
             <p className="text-sm text-ink/40">Loading...</p>
           ) : (
             <div className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {field("phone_1", "Phone 1")}
                 {field("phone_2", "Phone 2")}
               </div>
