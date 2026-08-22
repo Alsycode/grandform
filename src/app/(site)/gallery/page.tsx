@@ -4,9 +4,9 @@ import PageBanner from "@/components/PageBanner";
 import { getGalleryImages } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Gallery | Grand Form Restaurant",
+  title: "Gallery | Grand Form Hotel",
   description:
-    "A look inside Grand Form Restaurant, Iringalakuda — ambience, dining spaces and the moments we serve every day.",
+    "A look inside Grand Form Hotel, Iringalakuda — ambience, dining spaces and the moments we serve every day.",
 };
 
 export default async function GalleryPage() {
@@ -26,7 +26,7 @@ export default async function GalleryPage() {
               >
                 <Image
                   src={img.url}
-                  alt={img.caption || "Grand Form Restaurant gallery photo"}
+                  alt={img.caption || "Grand Form Hotel gallery photo"}
                   fill
                   sizes="(min-width: 640px) 33vw, 50vw"
                   className="object-cover transition-transform duration-300 hover:scale-105"

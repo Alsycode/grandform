@@ -73,7 +73,7 @@ export default function GalleryAdminPage() {
         <div className="rounded-md bg-white p-5 shadow-sm">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <h2 className="font-display text-base font-semibold text-ink">
-              Manage your restaurant gallery
+              Manage your hotel gallery
             </h2>
             <div className="flex items-center gap-2">
               <select

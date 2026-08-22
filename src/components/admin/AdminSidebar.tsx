@@ -34,9 +34,9 @@ const contentLinks: typeof manageLinks = [
   // { href: "/admin/contact-info", label: "Contact Info", icon: Phone },
 ];
 
-const settingsLinks = [
-  { href: "/admin/settings", label: "General Settings", icon: Settings },
-  { href: "/admin/users", label: "Users", icon: Users },
+const settingsLinks: typeof manageLinks = [
+  // { href: "/admin/settings", label: "General Settings", icon: Settings },
+  // { href: "/admin/users", label: "Users", icon: Users },
 ];
 
 function NavGroup({
@@ -92,7 +92,7 @@ export default function AdminSidebar({ email }: { email: string }) {
       <div className="flex items-center gap-3 border-b border-white/10 px-5 py-4">
         <Image
           src="/images/logo-icon.webp"
-          alt="Grand Form Restaurant"
+          alt="Grand Form Hotel"
           width={40}
           height={40}
           className="h-10 w-10 object-contain"
@@ -102,7 +102,7 @@ export default function AdminSidebar({ email }: { email: string }) {
             GRAND FORM
           </span>
           <span className="block text-[10px] tracking-[0.3em] text-gold">
-            RESTAURANT
+            HOTEL
           </span>
         </span>
       </div>
@@ -129,7 +129,9 @@ export default function AdminSidebar({ email }: { email: string }) {
         {contentLinks.length > 0 && (
           <NavGroup title="CONTENT" links={contentLinks} pathname={pathname} />
         )}
-        <NavGroup title="SETTINGS" links={settingsLinks} pathname={pathname} />
+        {settingsLinks.length > 0 && (
+          <NavGroup title="SETTINGS" links={settingsLinks} pathname={pathname} />
+        )}
       </nav>
 
       <div className="border-t border-white/10 p-3">

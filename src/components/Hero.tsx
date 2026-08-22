@@ -27,7 +27,7 @@ export default async function Hero() {
     <section id="home" className="relative overflow-hidden bg-maroon-deep text-cream">
       <Image
         src="/images/hero-bg.webp"
-        alt="Grand Form Restaurant dining area"
+        alt="Grand Form Hotel dining area"
         fill
         priority
         sizes="100vw"

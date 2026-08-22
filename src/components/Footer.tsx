@@ -147,7 +147,7 @@ export default async function Footer() {
         <div className="flex flex-col items-center pt-14 pb-10 px-5">
           <Image
             src="/images/logo-icon.webp"
-            alt="Grand Form Restaurant logo"
+            alt="Grand Form Hotel logo"
             width={72}
             height={72}
             className="h-18 w-18 object-contain"
@@ -156,7 +156,7 @@ export default async function Footer() {
             GRAND FORM
           </h2>
           <span className="mt-1 text-[11px] tracking-[0.35em] text-gold font-medium">
-            &#8226; RESTAURANT &#8226;
+            &#8226; HOTEL &#8226;
           </span>
           <OrnamentDivider className="mt-5" />
           <p className="mt-4 font-display text-lg tracking-[0.15em] text-gold-light sm:text-xl">
@@ -289,7 +289,7 @@ export default async function Footer() {
           </div>
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 pb-6 sm:flex-row lg:px-12">
             <p className="text-xs text-cream/50">
-              &copy; 2026 Grand Form Restaurant. All rights reserved.
+              &copy; 2026 Grand Form Hotel. All rights reserved.
             </p>
             <div className="flex items-center gap-0 text-xs text-cream/50">
               {footerLinks.bottom.map((l, i) => (

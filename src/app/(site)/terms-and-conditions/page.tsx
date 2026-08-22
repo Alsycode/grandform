@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 import { getSiteContent } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Grand Form Restaurant",
+  title: "Terms & Conditions | Grand Form Hotel",
 };
 
 export default async function TermsPage() {
@@ -17,7 +17,7 @@ export default async function TermsPage() {
     >
       <p>
         These Terms & Conditions govern your use of {site.website} and your
-        interactions with Grand Form Restaurant, located at {site.address_line_1}{" "}
+        interactions with Grand Form Hotel, located at {site.address_line_1}{" "}
         {site.address_line_2}. By using our website or making a reservation
         with us, you agree to these terms.
       </p>
@@ -31,7 +31,7 @@ export default async function TermsPage() {
 
       <h2>Website Use</h2>
       <ul>
-        <li>Content on this website — including text, photos and the Grand Form logo — belongs to Grand Form Restaurant and may not be reproduced without permission.</li>
+        <li>Content on this website — including text, photos and the Grand Form logo — belongs to Grand Form Hotel and may not be reproduced without permission.</li>
         <li>Menu items, prices and photos are for reference and may change without prior notice.</li>
       </ul>
 

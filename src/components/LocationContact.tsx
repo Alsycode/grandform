@@ -39,7 +39,7 @@ export default async function LocationContact() {
           </h3>
           <div className="mt-4 aspect-[4/3] overflow-hidden rounded-sm bg-ink/10">
             <iframe
-              title="Grand Form Restaurant location"
+              title="Grand Form Hotel location"
               src={`https://www.google.com/maps?q=${mapsQuery}&output=embed`}
               className="h-full w-full border-0"
               loading="lazy"
@@ -91,7 +91,7 @@ export default async function LocationContact() {
         <div className="overflow-hidden rounded-md shadow-sm">
           <Image
             src="/images/contact-interior.webp"
-            alt="Grand Form Restaurant interior"
+            alt="Grand Form Hotel interior"
             width={700}
             height={600}
             className="h-full w-full object-cover"

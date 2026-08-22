@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 import { getSiteContent } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Grand Form Restaurant",
+  title: "Privacy Policy | Grand Form Hotel",
 };
 
 export default async function PrivacyPolicyPage() {
@@ -12,7 +12,7 @@ export default async function PrivacyPolicyPage() {
   return (
     <LegalPage title="Privacy Policy" crumb="Privacy Policy" updated="21 August 2026">
       <p>
-        This Privacy Policy explains how Grand Form Restaurant (&quot;we&quot;,
+        This Privacy Policy explains how Grand Form Hotel (&quot;we&quot;,
         &quot;us&quot;, &quot;our&quot;) collects, uses and protects
         information you share with us through {site.website}, phone, email
         or in person when making a reservation or enquiry.

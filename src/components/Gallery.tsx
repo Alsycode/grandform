@@ -48,7 +48,7 @@ export default async function Gallery() {
             >
               <Image
                 src={img.url}
-                alt={img.caption || `Grand Form Restaurant ambience`}
+                alt={img.caption || `Grand Form Hotel ambience`}
                 fill
                 sizes="(min-width: 640px) 25vw, 50vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"

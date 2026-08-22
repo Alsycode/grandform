@@ -5,9 +5,9 @@ import { Phone, Mail, MapPin, Clock, Navigation, Map } from "lucide-react";
 import { getSiteContent } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Grand Form Restaurant",
+  title: "Contact Us | Grand Form Hotel",
   description:
-    "Get in touch with Grand Form Restaurant in Iringalakuda — call, email, or find directions to book your table.",
+    "Get in touch with Grand Form Hotel in Iringalakuda — call, email, or find directions to book your table.",
 };
 
 export default async function ContactPage() {
@@ -51,7 +51,7 @@ export default async function ContactPage() {
               FIND US HERE
             </p>
             <h2 className="mt-2 font-display text-2xl font-bold text-cream sm:text-3xl">
-              Grand Form Restaurant
+              Grand Form Hotel
             </h2>
 
             <div className="mt-6 space-y-4 text-sm text-cream/85">
@@ -96,7 +96,7 @@ export default async function ContactPage() {
           <div className="overflow-hidden rounded-md border border-gold/40 bg-ink/40">
             <div className="relative aspect-[4/3] w-full">
               <iframe
-                title="Grand Form Restaurant location"
+                title="Grand Form Hotel location"
                 src={`https://www.google.com/maps?q=${mapsQuery}&output=embed`}
                 className="h-full w-full border-0 opacity-90 grayscale invert"
                 loading="lazy"

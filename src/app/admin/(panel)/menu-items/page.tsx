@@ -126,7 +126,7 @@ export default function MenuItemsPage() {
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div>
               <h2 className="font-display text-base font-semibold text-ink">
-                Manage your restaurant menu items
+                Manage your hotel menu items
               </h2>
             </div>
             <button

@@ -15,9 +15,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Grand Form Restaurant | Iringalakuda",
+  title: "Grand Form Hotel | Iringalakuda",
   description:
-    "Good food, great moments. Grand Form Restaurant in Iringalakuda serves delicious dishes made with fresh ingredients and authentic flavours.",
+    "Good food, great moments. Grand Form Hotel in Iringalakuda serves delicious dishes made with fresh ingredients and authentic flavours.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

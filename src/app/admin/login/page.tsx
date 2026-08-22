@@ -37,7 +37,7 @@ export default function AdminLoginPage() {
         <div className="mb-6 flex flex-col items-center text-center">
           <Image
             src="/images/logo-icon.webp"
-            alt="Grand Form Restaurant"
+            alt="Grand Form Hotel"
             width={56}
             height={56}
             className="h-14 w-14 object-contain"
@@ -45,7 +45,7 @@ export default function AdminLoginPage() {
           <h1 className="mt-3 font-display text-xl font-bold text-ink">
             Admin Login
           </h1>
-          <p className="mt-1 text-xs text-ink/50">Grand Form Restaurant</p>
+          <p className="mt-1 text-xs text-ink/50">Grand Form Hotel</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

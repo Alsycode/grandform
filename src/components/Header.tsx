@@ -11,11 +11,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  const isActive = (href: string) => {
-    if (href === "/") return pathname === "/";
-    if (href.startsWith("/#")) return pathname === "/";
-    return pathname === href;
-  };
+  const isActive = (href: string) => href === pathname;
 
   return (
     <header className="sticky top-0 z-50 bg-maroon-deep text-cream">
@@ -23,7 +19,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/logo-icon.webp"
-            alt="Grand Form Restaurant logo"
+            alt="Grand Form Hotel logo"
             width={48}
             height={48}
             className="h-11 w-11 object-contain"
@@ -34,7 +30,7 @@ export default function Header() {
               GRAND FORM
             </span>
             <span className="block text-[11px] tracking-[0.3em] text-gold">
-              RESTAURANT
+              HOTEL
             </span>
           </span>
         </Link>

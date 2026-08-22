@@ -43,7 +43,7 @@ export default async function About() {
         <div className="overflow-hidden rounded-2xl shadow-xl">
           <Image
             src="/images/storefront.webp"
-            alt="Grand Form Restaurant storefront"
+            alt="Grand Form Hotel storefront"
             width={900}
             height={700}
             className="h-full w-full object-cover"

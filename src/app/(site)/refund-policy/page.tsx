@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 import { getSiteContent } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | Grand Form Restaurant",
+  title: "Refund Policy | Grand Form Hotel",
 };
 
 export default async function RefundPolicyPage() {
@@ -16,7 +16,7 @@ export default async function RefundPolicyPage() {
       updated="21 August 2026"
     >
       <p>
-        This policy explains how Grand Form Restaurant handles cancellations and
+        This policy explains how Grand Form Hotel handles cancellations and
         refunds for table reservations and any advance payments made
         through our website or over the phone.
       </p>
@@ -45,7 +45,7 @@ export default async function RefundPolicyPage() {
       <p>
         Approved refunds are returned to the original payment method within
         5–7 business days. For cash payments, refunds are issued in cash at
-        the restaurant.
+        the hotel.
       </p>
 
       <h2>Contact Us</h2>

@@ -45,7 +45,7 @@ export default function LocationSettingsPage() {
       <div className="p-6">
         <div className="max-w-2xl rounded-md bg-white p-5 shadow-sm">
           <h2 className="mb-4 font-display text-base font-semibold text-ink">
-            Restaurant location
+            Hotel location
           </h2>
           {loading ? (
             <p className="text-sm text-ink/40">Loading...</p>

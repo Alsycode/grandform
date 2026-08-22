@@ -54,7 +54,7 @@ export default function SetPasswordPage() {
         <div className="mb-6 flex flex-col items-center text-center">
           <Image
             src="/images/logo-icon.webp"
-            alt="Grand Form Restaurant"
+            alt="Grand Form Hotel"
             width={56}
             height={56}
             className="h-14 w-14 object-contain"

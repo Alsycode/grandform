@@ -10,7 +10,7 @@ export const navLinks = [
 export const footerLinks = {
   quick: [
     { label: "Home", href: "/" },
-    { label: "About Us", href: "/#about" },
+    { label: "About Us", href: "/about" },
     { label: "Menu", href: "/menu" },
     { label: "Gallery", href: "/gallery" },
     { label: "Location", href: "/#location" },

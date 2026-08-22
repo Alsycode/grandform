@@ -4,9 +4,9 @@ import PageBanner from "@/components/PageBanner";
 import { getMenuItems } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Menu | Grand Form Restaurant",
+  title: "Menu | Grand Form Hotel",
   description:
-    "Explore the full menu at Grand Form Restaurant, Iringalakuda — starters, main course, beverages and desserts made with fresh ingredients.",
+    "Explore the full menu at Grand Form Hotel, Iringalakuda — starters, main course, beverages and desserts made with fresh ingredients.",
 };
 
 const CATEGORIES = ["Starters", "Main Course", "Beverages", "Desserts"];
