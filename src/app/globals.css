@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #211313;
+  --color-cream: #f7f1e7;
+  --color-gold: #c9993d;
+  --color-gold-light: #e0b563;
+  --color-maroon: #7a1620;
+  --color-maroon-deep: #3b0d13;
+  --color-charcoal: #1c1a18;
+}
+
+@theme inline {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --color-ink: var(--color-ink);
+  --color-cream: var(--color-cream);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-maroon: var(--color-maroon);
+  --color-maroon-deep: var(--color-maroon-deep);
+  --color-charcoal: var(--color-charcoal);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), serif;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-logo-spin {
+  animation: logo-spin 1.2s linear infinite;
+}
