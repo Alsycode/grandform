@@ -103,12 +103,12 @@ export default function GalleryAdminPage() {
             </div>
           </div>
 
-          <div className="mb-4 flex gap-1 border-b border-ink/10">
+          <div className="mb-4 flex gap-1 overflow-x-auto border-b border-ink/10">
             {TABS.map((t) => (
               <button
                 key={t}
                 onClick={() => setTab(t)}
-                className={`px-3 py-2 text-sm font-medium ${
+                className={`shrink-0 whitespace-nowrap px-3 py-2 text-sm font-medium ${
                   tab === t
                     ? "border-b-2 border-maroon text-maroon"
                     : "text-ink/50 hover:text-ink"
